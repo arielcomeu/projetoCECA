@@ -1,0 +1,64 @@
+head{
+	<style>
+		text-align: center;
+		</style>
+	}
+body{
+
+}
+
+#castroalves1{
+width: 100%;
+}
+
+.principal {
+color: #FF8C00;
+padding: 30px;
+}
+.título-principal {
+	padding-left: 20px;
+}
+. class="título-centralizado" {
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+
+#história {
+	style= "font-size: 20px
+}
+	
+#atividadesnaescola{
+	width: 100%;
+}
+
+.conquistas {
+	font-style: italic;
+}
+.meta {
+	background: #FFFFFF;
+	padding: 20PX;
+}
+class="título-centralizado" {
+	text-align: center;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 35%;
+	margin-right: 20%;
+}
+/*css da página index*/
+.logotipo {
+ width: 100%;
+}
+
+.título-principal {
+	text-align: center;
+	font-size: 2em;
+}
+	
+
+</body>

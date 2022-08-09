@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contato</title>
+
+<link rel="stylesheet"href="reset.css">
+<link rel="stylesheet"href="nossocolégio.css">
+<link rel="stylesheet"href="contato.css">
+
+</head>
+<body>
+	<header>
+		<div class="caixa">
+			
+		<h1><img src="logotipo.png" alt="logo do colégio CECA"></h1>
+
+		<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="http://www.consultaescolas.pr.gov.br/consultaescolas-java/pages/paginas/profissionais/profissionaisEstabelecimento.jsf?windowId=4e7">Profissionais</a></li>
+			<li><a href="https://redesuldenoticias.com.br/noticias/colegio-castro-alves-conquista-antecipadamente-media-do-ideb-prevista-para-2021/">IDEB</a></li>
+			<li><a href="https://portalcantu.com.br/noticias/ultimas-noticias/quedas-do-iguacu/item/39978-colegio-estadual-castro-alves-recebe-premiacao-em-curitiba">Premiação</a></li>
+			<li><a href="https://portalcantu.com.br/noticias/ultimas-noticias/quedas-do-iguacu/item/8753-quedas-enem-da-a-quarta-colocacao-no-parana-ao-colegio-castro-alves">ENEM</a></li>
+			<li><a href="eventos.html">Contato</a></li>
+		</ul>
+		</nav>
+		</div>
+	</header>
+
+<main>
+	<form>
+		<label for= "nomeesobrenome">Nome e Sobrenome</label>
+		<input type="text" id= "nomeesobrenome"class="input-padrão" required>
+
+		<label for= "email">Email</label>
+		<input type="text" id= "email"class="input-padrão" required placeholder="seu email@dominio.com">
+
+		<label for= "telefone">Telefone</label>
+		<input type="text" id= "telefone"class="input-padrão" required placeholder="(xx) xxxxx-xxxx">
+
+<label for="mensagem">Mensagem</label>
+		<textarea cols="60" rows="10" id= "mensagem" class="input-padrão" required></textarea>
+
+<div>
+		<p class="destaque" id=" destaque" style= "color:orange;">Como prefere o nosso contato?</p>
+
+<label for="radio-e-mail"><input type="radio" value="e-mail"name="contato" id= "radio-e-mail">E-mail</label>
+		
+
+		<label for= "telefone"><input type="radio" value= "telefone"name="contato" id= "radio-telefone">Telefone</label>
+		
+
+		<label for="radio-whatsapp"><input type="radio" value= "whatsaap"name="contato"id= "radio-whatsapp"checked>Whatsaap</label>
+		
+</div>
+
+<div>
+<p class="destaque" id=" destaque" style= "color:orange;">Qual o melhor horário para estudar?</p>
+
+<select>
+	<option>Manhã</option>
+	<option>Tarde</option>
+</select>
+</div>
+
+<label class="checkbox"><input type="checkbox"checked>Gostaria de acompanhar nossas atividades por e-mail?</label>
+		<input type="submit" value="Enviar formulário" class="enviar">
+	</form>
+
+	<table>
+		<thead>
+		<tr>
+			<th>DIA</th>
+			<th>PROJETOS</th>
+			<th>HORÁRIO</th>
+		</tr>
+		</thead>
+		
+		<tbody>
+		<tr>
+			<td>Segunda</td>
+			<td>PMA; SRM</td>
+			<td>13:00 - 17:00</td>
+		</tr>
+		<tr>
+			<td>Terça</td>
+			<td>HORTA; SRM</td>
+			<td>13:00 - 17:00</td>
+		</tr>
+		<tr>
+			<td>Quarta</td>
+			<td> EDUTECH; PMA; SRM</td>
+			<td>13:00 - 17:00</td>
+		</tr>
+		<tr>
+			<td>Quinta</td>
+			<td>AIT; SRM</td>
+			<td>13:00 - 17:00</td>
+		</tr>
+		</tbody>
+			
+	</table>
+</main>
+	<footer>
+		<img src="logotipo.png" alt="logo do colégio CECA">
+		<p class="copyright">&copy; Copyright Colégio Castro Alves - 2022
+	</footer>
+	
+</body>
+</html>

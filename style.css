@@ -1,0 +1,203 @@
+header {
+	background: #FFEFD5;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+nav {
+	position: absolute;
+	top: 70px;
+	right: 0;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FF8C00;
+	text-decoration: underline;
+}
+
+.história {
+	width: 940px;
+	margin: 0 auto;
+	text-align: justify;
+	padding: 50px 0;
+}
+.história li {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border-color:#FFDEAD ;
+	border-width:2px ;
+	border-style:dotted;
+	border-top-width: 15px;
+	border-radius: 15px;
+	text-align: left;
+}
+
+.estrutura h2 {
+	font-size: 30px;
+	font-weight: bold;
+	margin: top 10px;
+}
+
+#estrutura {
+	width: 50%;
+	height: 50%;
+	text-align: center;
+}
+
+#quadra {
+	width: 50%;
+	height: 50%;
+	text-align: center;
+}
+.turmas h3 {
+	font-size: 30px;
+	font-weight: bold;
+	margin: top 10px;
+}
+
+#turmas1 {
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin-left: auto;
+}
+
+#aulageo {
+	width: 50%;
+	height: 50%;
+	display: block;
+}
+
+#alunos2 {
+width: 50%;
+	height: 50%;
+}
+
+#alunos3 {
+width: 50%;
+	height: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+	position: absolute;
+}
+
+#alunos4 {
+width: 100%;
+	height: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+	position: absolute;
+}
+.eventos h4 {
+	font-size: 30px;
+	font-weight: bold;
+	margin: top 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+#evento3 {
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+#evento4 {
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#projetos2 {
+	width: 50%;
+	height: 50%;
+}
+
+#projetos1 {
+	width: 60%;
+	height: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	/*css da página index*/
+.logotipo {
+ width: 30%;
+}
+.castroalves1 {
+	width: 100%;
+}
+
+.principal {
+	text-align: justify-all;
+}
+
+.título-principal,h2 {
+	text-align: center;
+	font-size: 2em;
+	background: #FF9900;
+}
+
+.agradecimento {
+	text-align: center;
+	font-size: 2em;
+	color: #FF6EC7;
+}
+
+.vidas {
+	text-align: center;
+	font-size: 2em;
+	color: #CFB53B;
+}
+
+.educação {
+	text-align: center;
+	font-size: 2em;
+	color: #CD7F32;
+}
+
+.viva {
+	text-align: center;
+	font-size: 2em;
+	color: #E47833;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
